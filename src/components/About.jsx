@@ -40,7 +40,7 @@ const About = () => {
         <span className="text-xs font-mono font-bold tracking-widest text-purple-400 uppercase bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">
           About Me
         </span>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-3 tracking-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">
           Passionate About <span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Problem Solving</span>
         </h2>
         <div className="w-20 h-1.5 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mt-4 rounded-full shadow-[0_0_12px_#8B5CF6]" />

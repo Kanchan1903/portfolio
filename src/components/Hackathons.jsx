@@ -13,7 +13,7 @@ const Hackathons = () => {
         <span className="text-xs font-mono font-bold tracking-widest text-cyan-400 uppercase bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">
           Innovation & Team Collaboration
         </span>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-3 tracking-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">
           Hackathon <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">Experience</span>
         </h2>
         <div className="w-20 h-1.5 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500 mx-auto mt-4 rounded-full shadow-[0_0_12px_#06B6D4]" />

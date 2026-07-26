@@ -15,7 +15,7 @@ const Projects = () => {
         <span className="text-xs font-mono font-bold tracking-widest text-purple-400 uppercase bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">
           Featured Engineering Work
         </span>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-3 tracking-tight">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mt-3 tracking-tight">
           Signature <span className="bg-gradient-to-r from-purple-400 to-indigo-400 bg-clip-text text-transparent">Project</span>
         </h2>
         <div className="w-20 h-1.5 bg-gradient-to-r from-purple-500 to-indigo-500 mx-auto mt-4 rounded-full shadow-[0_0_12px_#8B5CF6]" />
