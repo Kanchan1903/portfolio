@@ -5,6 +5,7 @@
   html {
     scroll-behavior: smooth;
     color-scheme: dark;
+    font-size: 14.5px;
   }
   body {
     @apply bg-[#06080F] text-slate-200 font-sans m-0 p-0 overflow-x-hidden;
