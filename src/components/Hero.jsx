@@ -20,7 +20,7 @@ const Hero = ({ onOpenResume }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4 leading-tight"
+          className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-tight mb-3 leading-tight"
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-indigo-300 to-cyan-400">
             Hi, I'm {name}
@@ -33,7 +33,7 @@ const Hero = ({ onOpenResume }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-xl sm:text-2xl md:text-3xl font-bold text-slate-300 tracking-tight mb-4 max-w-3xl mx-auto"
+          className="text-lg sm:text-xl md:text-2xl font-bold text-slate-300 tracking-tight mb-3 max-w-2xl mx-auto"
         >
           {title}
         </motion.h2>
@@ -43,7 +43,7 @@ const Hero = ({ onOpenResume }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="text-slate-400 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed font-normal"
+          className="text-slate-400 text-xs sm:text-sm md:text-base max-w-xl mx-auto mb-8 leading-relaxed font-normal"
         >
           {seeking} with a strong focus on Python programming, full-stack MERN web applications, and collaborative real-world problem solving.
         </motion.p>
@@ -53,27 +53,27 @@ const Hero = ({ onOpenResume }) => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="flex flex-wrap items-center justify-center gap-4 sm:gap-5 mb-14"
+          className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 mb-10"
         >
           <a
             href="#projects"
-            className="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white font-semibold text-sm sm:text-base shadow-[0_0_25px_rgba(139,92,246,0.35)] hover:shadow-[0_0_35px_rgba(139,92,246,0.55)] hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 group"
+            className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 text-white font-semibold text-xs sm:text-sm shadow-[0_0_20px_rgba(139,92,246,0.35)] hover:shadow-[0_0_30px_rgba(139,92,246,0.55)] hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 group"
           >
             <span>View Projects</span>
-            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
           </a>
 
           <button
             onClick={onOpenResume}
-            className="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-slate-900/90 border border-cyan-500/40 text-cyan-300 font-semibold text-sm sm:text-base shadow-[0_0_20px_rgba(6,182,212,0.15)] hover:bg-slate-800/80 hover:border-cyan-400 hover:text-white hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2.5 group"
+            className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-slate-900/90 border border-cyan-500/40 text-cyan-300 font-semibold text-xs sm:text-sm shadow-[0_0_15px_rgba(6,182,212,0.15)] hover:bg-slate-800/80 hover:border-cyan-400 hover:text-white hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2 group"
           >
-            <Eye className="w-4 h-4 text-cyan-400 group-hover:scale-110 transition-transform" />
+            <Eye className="w-3.5 h-3.5 text-cyan-400 group-hover:scale-110 transition-transform" />
             <span>View Resume</span>
           </button>
 
           <a
             href="#contact"
-            className="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-slate-900/70 border border-slate-700 hover:border-purple-500/50 text-slate-300 hover:text-white font-semibold text-sm sm:text-base hover:bg-slate-800/80 active:scale-95 transition-all flex items-center justify-center"
+            className="w-full sm:w-auto px-6 py-2.5 rounded-xl bg-slate-900/70 border border-slate-700 hover:border-purple-500/50 text-slate-300 hover:text-white font-semibold text-xs sm:text-sm hover:bg-slate-800/80 active:scale-95 transition-all flex items-center justify-center"
           >
             Contact Me
           </a>
